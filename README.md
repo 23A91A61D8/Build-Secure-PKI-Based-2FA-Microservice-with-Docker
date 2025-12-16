@@ -5,8 +5,6 @@
 ## Overview
 This project implements a secure, containerized authentication microservice using **Public Key Infrastructure (PKI)** and **Time-based One-Time Password (TOTP)** two-factor authentication. It demonstrates enterprise-grade security practices including RSA encryption, secure key handling, Docker containerization, persistent storage, and automated cron jobs.
 
-This project was developed as part of the **Partnr Mandatory Task**.
-
 ---
 
 ## Objective
