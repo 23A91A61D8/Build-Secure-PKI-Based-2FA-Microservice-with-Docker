@@ -86,3 +86,7 @@ def verify_2fa(payload: dict):
     is_valid = verify_totp_code(hex_seed, payload["code"])
 
     return {"valid": is_valid}
+@app.get("/health")
+def health():
+    return {"status": "ok"}
+

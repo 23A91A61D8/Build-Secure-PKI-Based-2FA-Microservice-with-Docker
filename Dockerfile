@@ -48,4 +48,6 @@ RUN chmod 0644 cron/2fa-cron && crontab cron/2fa-cron
 EXPOSE 8080
 
 # Start cron + API
-CMD cron && uvicorn app.main:app --host 0.0.0.0 --port 8080
+
+CMD cron -f & uvicorn app.main:app --host 0.0.0.0 --port 8080
+

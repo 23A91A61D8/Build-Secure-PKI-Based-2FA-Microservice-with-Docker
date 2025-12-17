@@ -3,7 +3,7 @@ from cryptography.hazmat.primitives import hashes, serialization
 from cryptography.hazmat.primitives.asymmetric import padding
 
 # ---------- CONFIG ----------
-COMMIT_HASH = "f94ec2e596d4df7668159654f3367a3762b4c7e7"
+COMMIT_HASH = "9cfd938ce61257b37dc2acb0065fcecda4ea5f35"
 STUDENT_PRIVATE_KEY = "student_private.pem"
 INSTRUCTOR_PUBLIC_KEY = "instructor_public.pem"
 # ----------------------------
